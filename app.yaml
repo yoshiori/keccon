@@ -1,0 +1,25 @@
+application: keccon2010
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+- url: /css
+  static_dir: css
+
+- url: /images
+  static_dir: images
+
+- url: /js
+  static_dir: js
+
+- url: /
+  static_files: html/index.html
+  upload: index.html
+  
+- url: /
+  static_dir: html
+
