@@ -1,0 +1,97 @@
+* {
+  margin:0 ;
+  padding: 0;
+}
+
+header,footer,article,section,hgroup,nav,figure { display: block; }
+
+body {
+  font-size: 0.9em;
+  font-family: Helvetica, "Lucida Grande","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ", "ＭＳ Ｐゴシック","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+  color: #333;
+}
+
+a img { border: none; }
+
+a {color: #0063dc;}
+a:visited {color: #0063dc;}
+a:hover {
+  background-color: #0063dc;
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  color: #0063dc;
+  font-size: 3em;
+  padding: 0.5em 0 0;
+}
+
+h2 {
+  color: #ff0084;
+  font-size: 2em;
+  font-weight: normal;
+  border-bottom: 3px solid #a9cde4;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  line-height: 1.5em;
+  padding: 0.5em 0 0.5em 0;
+}
+
+table {
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-left: 5px solid #0063dc;
+  border-top: 1px dotted #999; 
+  border-bottom: 1px dotted #999; 
+}
+
+table th {
+  width: 20%;
+  background-color: #eee;
+  border-bottom: 1px dotted #999; 
+  padding: 1ex;
+}
+
+table td {
+  border-bottom: 1px dotted #999; 
+  padding: 1ex;
+}
+
+section#container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+div#registration{
+  background-color: #0063dc;
+  border: 1px solid #fff;
+  
+  padding: 12px 20px 0 40px;
+  position: fixed;
+  left: -20px;
+  top: 200px;
+  width: 380px;
+  height: 60px;
+  z-index: 999;
+  -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+  text-align: right;
+}
+
+div#registration a {
+  font-size: 3em;
+  color: #ff0084;
+}
+
+footer p {
+  width: 100%;
+  text-align: center;
+}
