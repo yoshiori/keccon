@@ -63,7 +63,7 @@ table td {
   padding: 1ex;
 }
 
-section#container{
+article#container{
   width: 70%;
   margin: 0 auto;
 }
@@ -94,4 +94,14 @@ div#registration a {
 footer p {
   width: 100%;
   text-align: center;
+}
+
+section.photo {
+  text-align: center;
+}
+
+.photo img {
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #eee;
 }

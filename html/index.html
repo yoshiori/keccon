@@ -4,14 +4,29 @@
     <meta charset='utf-8'>
     <link rel='stylesheet' type='text/css' href='css/style.css'>
     <title>Keccon2010</title>
+    <script src='js/jquery-1.4.2.min.js'></script>
+    <script src='js/jquery.scrollTo-min.js'></script>
+    <script>
+      $(document).ready(function(){
+        $('#registration').hover(function(){
+          $(this).stop().animate({'left':-20},'slow');
+        },function(){
+          $(this).stop().animate({'left':-410},'slow');
+        });
+        setTimeout(function(){$('#registration').animate({'left':-410},'slow');},2000);
+      });
+    </script>
   </head>
   <body>
     <div id='registration'>
       <a href='#'>REGISTRATION</a>
     </div>
-    <section id='container'>
+    <article id='container'>
       <header><h1>Keccon2010</h1></header>
-      <article>
+      <section class='photo'>
+        <img src='images/top2.jpg' alt='top' />
+      </section>
+      <section>
         <h2>開催概要</h2>
         <table>
           <tr>
@@ -27,9 +42,8 @@
             <td>100万ギル</td>
           </tr>
         </table>
-      </article>
-      
-      <article>
+      </section>
+      <section>
         <h2>タイムテーブル</h2>
         <table>
           <tr>
@@ -48,32 +62,20 @@
             <td>新郎による挨拶</td>
           </tr>
          </table>
-      </article>
+      </section>
 
-      <article>
+      <section>
         <h2>Contents</h2>
         <p><a href='#'>リンク</a></p>
         <p>テキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキスト</a></p>
         <p>テキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキスト</a></p>
-      <p>テキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキスト</a></p>
-    </article>
+        <p>テキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキストテキスト テキスト テキスト</a></p>
+      </section>
 
       <footer>
         <p>Copyright 2010 - keccon2010.appspot.com</p>
       </footer>
-    </section>
-
-    <script src='js/jquery-1.4.2.min.js'></script>
-    <script src='js/jquery.scrollTo-min.js'></script>
-    <script>
-      $(document).ready(function(){
-        $('#registration').hover(function(){
-          $(this).stop().animate({'left':-20},'slow');
-        },function(){
-          $(this).stop().animate({'left':-410},'slow');
-        });
-        setTimeout(function(){$('#registration').animate({'left':-410},'slow');},2000);
-      });
-    </script>
+    </article>
   </body>
 </html>
+n
