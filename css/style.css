@@ -26,6 +26,9 @@ h1 {
   font-size: 3em;
   padding: 0.5em 0 0;
 }
+h1:first-letter {
+  color: #ff0084;
+}
 
 h2 {
   color: #ff0084;
@@ -104,4 +107,12 @@ section.photo {
   padding: 15px;
   border: 1px solid #ccc;
   background-color: #eee;
+}
+
+header h1{
+  padding-left: 20px;
+  margin-bottom:15px;
+  height:70px;
+  background:#eee;
+  border: 1px solid #ccc;
 }
