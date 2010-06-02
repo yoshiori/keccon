@@ -94,9 +94,14 @@ div#registration a {
   color: #ff0084;
 }
 
+footer {
+  margin-top: 1em;
+}
+
 footer p {
   width: 100%;
   text-align: center;
+  padding: 0;
 }
 
 section.photo {
@@ -109,10 +114,30 @@ section.photo {
   background-color: #eee;
 }
 
-header h1{
-  padding-left: 20px;
-  margin-bottom:15px;
-  height:70px;
+header {
   background:#eee;
   border: 1px solid #ccc;
+  margin-bottom:15px;
+  height:110px;
+}
+
+header h1{
+  padding-left: 20px;
+}
+
+header nav {
+  background-color: #fff;
+  padding: 1em;
+  position: absolute;
+  right: 1em;
+  top: 4em;
+  -moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+header nav ul li{
+  font-size: 1em;
+  display: inline; 
+  margin-left: 1ex;
 }
