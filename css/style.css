@@ -36,12 +36,11 @@ h2 {
   font-weight: normal;
   border-bottom: 3px solid #a9cde4;
   margin-top: 1em;
-  margin-bottom: 0.5em;
 }
 
 p {
   line-height: 1.5em;
-  padding: 0.5em 0 0.5em 0;
+  padding: 1em 0 1em 0;
 }
 
 table {
@@ -140,4 +139,9 @@ header nav ul li{
   font-size: 1em;
   display: inline; 
   margin-left: 1ex;
+}
+
+.map {
+  text-align: center;
+  padding: 1.5em 0 1.5em 0;
 }
