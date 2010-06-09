@@ -85,9 +85,9 @@ div#registration{
   background-color: #0063dc;
   border: 1px solid #fff;
   
-  padding: 12px 20px 0 40px;
+  padding: 12px 20px 0 30px;
   position: fixed;
-  left: -20px;
+  left: -25px;
   top: 200px;
   width: 380px;
   height: 60px;
@@ -101,6 +101,7 @@ div#registration{
 div#registration a {
   font-size: 3em;
   color: #ff0084;
+  text-decoration: none;
 }
 
 footer {
