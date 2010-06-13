@@ -34,5 +34,7 @@
         });
         setTimeout(growl,30000);
     };
-    growl();
+    $(document).ready(function(){
+        growl();
+    });
 })();
