@@ -16,6 +16,9 @@ handlers:
 - url: /js
   static_dir: js
 
+- url: /script/.*
+  script: twitter.py
+
 - url: /
   static_files: html/index.html
   upload: index.html
