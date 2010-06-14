@@ -75,7 +75,7 @@ class Api(webapp.RequestHandler):
 
         results = []
         if mode == 'entrant':
-            for data in TwitterUser.all():
+            for data in TwitterUser.all().order('date'):
                 results.append({
                     'id' : data.id,
                     'username' : data.username,
