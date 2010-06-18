@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import oauth, logging
+import oauth, logging, sys
 from google.appengine.ext import webapp,db
 from google.appengine.ext.webapp import util
 from django.utils import simplejson
