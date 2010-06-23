@@ -35,6 +35,6 @@
         setTimeout(growl,30000);
     };
     $(document).ready(function(){
-        growl();
+            //        growl();
     });
 })();
